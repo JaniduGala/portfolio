@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/76f0f4c77e.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+             <img src="Images/LogoB.png" class="logo">
+         
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portrfolio</a></li>
+                <li><a href="#">contact</a></li>
+
+                </ul>
+
+        </nav>
+        <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hi, I'm <span>Janidu</span> Galappaththi <br>From Sri Lanka</h1>
+    </div>
+    </div>
+    </div>
+<!--------About--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src ="Images/Ashbg2.png">
+                   </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am Janidu Galappaththi, currently an undergraduate student pursuing a degree in Software Engineering at Saegis University.  Having a strong foundation in technology, I successfully passed the advanced level examination in Engineering Technology stream.  I am passionate about exploring innovative solutions and technologies in the field of software development.  I am eager to contribute my skills and dedication to meaningful projects and collaborations and have a strong desire to do team projects.</p>
+                    
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span>Designing Web/App Interface</li>
+                    <li><span>Web Development</span>Web App Development</li>
+                    <li><span>App Development</span>Building Android/Ios Apps</li>
+                    </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Api Flora</span>Creating teamwork Web site</li>
+                    
+                    </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2007-2020</span>Royal college</li>
+                    <li><span>2021</span>Business at Oxford college of business</li>
+                    <li><span>2022</span>Software Engineering at Saegis Campus</li>
+                    </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!----------services-->
+    <div id="services">
+     <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I'm passionate about creating intuitive and visually stunning web designs. With a keen eye for detail and a focus on user experience, I strive to craft websites that not only look beautiful but also function seamlessly. Explore my work and let's create something amazing together.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Welcome to my UI/UX design portfolio! I'm dedicated to crafting engaging and user-centric digital experiences. Explore my work and let's bring your ideas to life.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Explore my world of app development where creativity meets functionality. Let's build something amazing together.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+     </div>
+         <!-------portfolio-->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="Images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Social media apps are digital platforms for users to create, share, and interact with content, connect with others, and stay updated on news and trends.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Music apps let you listen to and organize music, create playlists, explore new releases, and follow your favorite artists, with some offering personalized recommendations and offline listening.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="Images/work-3.png">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>An online shopping app is a digital platform for users to browse, buy, and manage orders for products or services, offering features like search filters, recommendations, and secure payments.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+               <a href="#" class="btn">See more</a>
+            </div>
+        </div> 
+    </div>
+    <!--------contact---------------------------------->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+             <h1 class="sub-title">Contact Me</h1>
+             <p><i class="fa-solid fa-paper-plane"></i>janidugalappaththi@gmail.com</p>
+             <p><i class="fa-solid fa-phone"></i>0711911006</p>
+             <div class="social-icons">
+                <a href="https://www.facebook.com/chamal.janidugalappaththi?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://web.telegram.org/k/"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.instagram.com/janu_galappaththi?igsh=bGF6czdnZGllM2pj&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/janidu-galappaththi-2466362a8/"><i class="fa-brands fa-linkedin"></i></i></a>
+             </div>
+             <a href="Images/Janiducv.pdf" download class="btn btn2">Download CV</a>
+             </div>
+             </div>
+             </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name"placeholder="Your Name"required>
+                    <input type="email" name="email"placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©Janidu Made with by<i class="fa-solid fa-heart"></i> Janu team®</p>
+    </div>
+  </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+</body>
+</html>
